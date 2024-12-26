@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <!-- Link para o estilo CSS -->
+  <link href="../CSS/style.css" rel="stylesheet" />
+  <!-- Link para o Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <style>
+    .section-equal-height {
+      min-height: 400px;
+      /* Ajuste este valor conforme necessário */
+    }
+  </style>
+</head>
+
+<body class="bg-info">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid"> <a class="navbar-brand" href="#"><i
+            class="bi bi-joystick me-2 text-purple"></i>Lucas Souza</a> <button class="navbar-toggler" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+          aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav"> <a class="nav-link" aria-current="page" href="#about">Sobre mim</a> <a
+              class="nav-link" href="#Works">Trabalhos</a> <a class="nav-link" href="#social">Redes sociais</a> </div>
+          <div class="ms-auto navbar-nav"> <a class="nav-link" id="language-switch" href="../Portifolio/indexEng.html">English</a>
+          </div>
+        </div>
+      </div>
+  </header>
+
+  <section
+    class="container my-5 text-white d-flex justify-content-center align-items-center custom-border section-equal-height"
+    id="about">
+    <!-- Linha do grid -->
+    <div class="row w-100">
+      <!-- 1ª coluna -->
+      <div class="col-12 col-sm-12 col-md-6">
+        <img src="../Portifolio/IMG/Eu.png" alt="" style="width: 100%; height: 100%" />
+      </div>
+      <!-- Fim da 1ª coluna -->
+      <div class="col-12 col-sm-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
+        <h1 class="display-2">Sobre mim</h1>
+        <p>
+            Eu sou Lucas Souza Silva, um estudante da área de tecnologia de Guarulhos, São Paulo. Estou cursando Desenvolvimento de Jogos na FIAP, focando em Unity, e tenho um diploma técnico em Redes de Computadores pelo SENAI São Paulo. Com certificações em IA na nuvem e análise de dados, além de proficiência em Microsoft Office 365 e Python, possuo uma base técnica sólida. Minhas habilidades incluem modelagem 3D, criação de jogos, programação (C#, Python, JavaScript), desenvolvimento web (HTML, CSS, Bootstrap), e Adobe Photoshop. Meu objetivo é usar minha expertise para contribuir na área de tecnologia.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section class="container my-3 text-white d-flex flex-column align-items-center section-equal-height" id="Works">
+      <h1 class="text-center display-3">Trabalhos</h1>
+      <div class="row justify-content-center">
+        <div class="card mx-2 my-3 bg-dark text-white text-center" style="width: 18rem">
+          <img src="../Portifolio/IMG/EPIDEMIALOGO.png" class="card-img-top" style="width: 100%; height: 50%" />
+          <div class="card-body">
+            <h5 class="card-title display-7 text-purple text-center">
+              EPIDEMIA
+            </h5>
+            <p class="card-text">
+                Divirta-se sobrevivendo no mundo apocalíptico infestado de zumbis.
+            </p>
+            <a data-bs-toggle="modal" data-bs-target="#epidemia" class="btn btn-outline-purple bg-info text-white">Mais informações</a>
+          </div>
+        </div>
+
+        <div class="card mx-2 my-3 bg-dark text-white text-center" style="width: 18rem">
+          <img src="../Portifolio/IMG/WindCatcehrs.png" class="card-img-top" style="width: 100%; height: 50%" />
+          <div class="card-body">
+            <h5 class="card-title display-7 text-purple text-center">
+              WIND CATCHERS
+            </h5>
+            <p class="card-text">
+                Aprenda sobre desenvolvimento sustentável com este jogo divertido.
+            </p>
+            <a data-bs-toggle="modal" data-bs-target="#windcatchers"
+              class="btn btn-outline-purple bg-info text-white text-center">Mais informações</a>
+          </div>
+        </div>
+
+        <div class="card mx-2 my-3 bg-dark text-white text-center" style="width: 18rem">
+          <img src="../Portifolio/IMG/mprlogo.png" class="card-img-top" style="width: 100%; height: 50%" />
+          <div class="card-body">
+            <h5 class="card-title display-7 text-purple text-center">
+              MOTO PIZZA RUSH
+            </h5>
+            <p class="card-text">
+                Seja um entregador e colete o máximo de pizzas que conseguir enquanto desvia de obstáculos!
+            </p>
+            <a data-bs-toggle="modal" data-bs-target="#moto" class="btn btn-outline-purple bg-info text-white">Mais informações</a>
+          </div>
+        </div>
+        <div class="card mx-2 my-3 bg-dark text-white text-center" style="width: 18rem">
+          <img src="../Portifolio/IMG/eclusa.jpg" class="card-img-top" style="width: 100%; height: 50%" />
+          <div class="card-body">
+            <h5 class="card-title display-7 text-purple text-center">
+              CENTRO LOGÍSTICO 3D
+            </h5>
+            <p class="card-text">
+                Venha ver meu projeto onde criei um modelo 3D de uma parte de um centro logístico!
+            </p>
+            <a data-bs-toggle="modal" data-bs-target="#lc" class="btn btn-outline-purple bg-info text-white">Mais informações
+              </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="modal fade" id="epidemia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fs-5 display-5" id="exampleModalLabel">
+            EPIDEMIA
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Epidemia é um emocionante jogo de apocalipse zumbi onde o objetivo é sobreviver o máximo de tempo possível. Enfrente hordas de zumbis enquanto atira para se defender e coleta barris que restauram sua saúde e fornecem munição. Com gráficos intensos e uma jogabilidade cheia de ação, Epidemia desafia você a testar suas habilidades de sobrevivência em um mundo devastado pelos mortos-vivos. Prepare-se para lutar, sobreviver e se superar a cada rodada!
+
+          </p>
+          <a href="https://drive.google.com/drive/folders/1ZIN3iIBmRebfdtO05QtWGNKrfRyBoOxK?usp=drive_link">Link de download
+            </a>
+          <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="../Portifolio/IMG/EPIDEMIA.png" class="d-block w-100 img fluid" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+
+
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="../Portifolio/IMG/EPIDEMIAG2.png" class="d-block w-100 img fluid" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="ratio ratio-16x9 video-container">
+                  <iframe src="https://www.youtube.com/embed/example1" title="Epidemia Video" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="moto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fs-5 display-5" id="exampleModalLabel">
+            MOTO PIZZA RUSH
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Moto Pizza Rush é um jogo hiper casual emocionante que desafia jogadores de todas as idades. Nele, você combina a adrenalina de uma corrida de moto com a urgência de coletar caixas de pizza. Desvie dos cones e pegue o máximo de pizzas possível, criando uma experiência divertida e viciante. Prepare-se para uma aventura cheia de ação e diversão enquanto você corre contra o tempo para entregar pizzas.
+          </p>
+          <a href="https://drive.google.com/drive/folders/12a4eOWxbxeSzdShOefoncX1E2xt33eL8?usp=drive_link">Link de download
+            </a>
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../Portifolio/IMG/MPR3.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../Portifolio/IMG/MPR4.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <div class="ratio ratio-16x9 video-container">
+                  <iframe src="https://www.youtube.com/embed/example3" title="Moto Pizza Rush Video"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <img class="img-fluid" src="../Portifolio/IMG/czqmck5n.bmp" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="lc" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fs-5 display-5" id="exampleModalLabel">CENTRO LOGÍSTICO 3D</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Desenvolvi um projeto utilizando modelagem 3D da área de recepção do centro logístico onde trabalho, incorporando alguns detalhes bastante interessantes.</p>
+          <a href="https://sketchfab.com/3d-models/inbound-1933f49c0fe44bb08940b412cdbc9356">Veja no Sketchfab</a>
+          <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../Portifolio/IMG/BOLSÃO 2.jpg" class="d-block w-100" alt="Render 1">
+              </div>
+              <div class="carousel-item">
+                <img src="../Portifolio/IMG/BOLSÃO 3.jpg" class="d-block w-100" alt="Render 2">
+              </div>
+              <div class="carousel-item">
+                <img src="../Portifolio/IMG/hidralico e bounts.jpg" class="d-block w-100" alt="Render 3">
+              </div>
+              <div class="carousel-item">
+                <img src="../Portifolio/IMG/render 2.jpg" class="d-block w-100" alt="Render 4">
+              </div>
+              <div class="carousel-item">
+                <img src="../Portifolio/IMG/eclusa.jpg" class="d-block w-100" alt="Hidralico e Bounts">
+              </div>
+              <div class="carousel-item">
+                <img src="../Portifolio/IMG/render 4.jpg" class="d-block w-100" alt="Bolsão 3">
+              </div>
+              <div class="carousel-item">
+                <img src="../Portifolio/IMG/bolsão 5.jpg" class="d-block w-100" alt="Bolsão 2">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="windcatchers" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fs-5 display-5" id="exampleModalLabel">WIND CATCHERS</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Wind Catcher é um jogo hiper casual criado pelo curso de Desenvolvimento de Jogos da FIAP, que destaca a importância das energias renováveis. No jogo, você controla uma turbina eólica, coletando partículas de vento para aumentar a produção de energia. Enfrente desafios como balões que atuam como obstáculos e use baterias para reparar danos. Wind Catcher educa sobre energia eólica e promove a inovação tecnológica para um futuro sustentável. A jogabilidade envolve coletar vento e desviar de obstáculos para aumentar sua pontuação, refletindo a eficiência energética alcançada. Junte-se a nós nesta jornada para inspirar novas ideias e debates sobre sustentabilidade!
+          </p>
+          <a href="https://wind-catchers.itch.io/wind-cathers">Link de download </a>
+          <div id="carouselWindcatchers" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselWindcatchers" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselWindcatchers" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselWindcatchers" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../Portifolio/IMG/wc1.png" class="d-block w-100" alt="Image 1">
+              </div>
+              <div class="carousel-item">
+                <img src="../Portifolio/IMG/wc2.png" class="d-block w-100" alt="Image 2">
+              </div>
+              <div class="carousel-item">
+                <div class="ratio ratio-16x9 video-container">
+                  <iframe src="https://www.youtube.com/embed/example2" title="Wind Catchers Video"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselWindcatchers"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselWindcatchers"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <body>
+    <div class="container text-center my-3 text-white" id="social">
+      <h1 class="display-5">Redes sociais</h1>
+      <br>
+      <div class="row justify-content-center social-media">
+        <div class="col-auto"> <a href="https://www.linkedin.com/in/lucas-souza-514760196/" target="_blank"> <img
+              src="../Portifolio/IMG/linkedin.png" class="img-fluid" alt="LinkedIn"> </a> </div>
+        <div class="col-auto"> <a href="https://github.com/LucasSouz89" target="_blank"> <img src="../Portifolio/IMG/github.png"
+              class="img-fluid" alt="Git"> </a> </div>
+        <div class="col-auto"> <a href="https://youtube.com/@lucassouza-fx9uq?si=H6FVs7qeCWJDx3XZ" target="_blank"> <img
+              src="../Portifolio/IMG/youtube.png" class="img-fluid" alt="YouTube"> </a> </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark justify-content-center">
+      <div class="container-fluid d-flex justify-content-center"> <a class="navbar-brand text-center" href="#"> <i
+            class="bi bi-joystick me-2 text-purple"></i> <span class="text-purple">TODOS OS DIREITOS RESERVADOS</span> </a> </div>
+
+
+      <!-- Script do Bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+      </script>
+  </body>
+
+</html>

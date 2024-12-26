@@ -1,0 +1,6 @@
+body{
+    font-family: Arial, sans-serif;
+    color: rgb(219, 0, 0);
+    background-color: #ffffff;
+}
+.social-media a img { width: 40px; /* Tamanho padrão */ height: 40px; margin: 0 10px; /* Espaçamento entre os ícones */ } /* Tamanho menor em telas menores */ @media (max-width: 576px) { .social-media a img { width: 30px; /* Tamanho reduzido para telas menores */ height: 30px; } }
